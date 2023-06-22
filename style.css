@@ -1,30 +1,64 @@
-* {
-    background-color: bisque;
-}
-
-.main-header {
-    padding: 10 10 10 10;
-    background-color: aliceblue;
-    margin: 10 30 20 10;
-
-}
-
-.logo {
-    flex: auto;
-
-}
-
-.header-menu {
-    flex: auto;
-
-}
-
-.menu {
-    font-size: small;
-    font-style: italic;
-    font-stretch: normal;
-    font-weight: lighter;
-    flex: auto;
-
-}
-
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #4caf50;
+    margin: 0;
+  }
+  
+  /* Navigation styles */
+  nav {
+    background-color: #4caf50;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #45a049;
+  }
+  
+  /* Slideshow styles */
+  .slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+  }
+  
+  .slideshow-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
