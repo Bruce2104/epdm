@@ -1,0 +1,30 @@
+* {
+    background-color: bisque;
+}
+
+.main-header {
+    padding: 10 10 10 10;
+    background-color: aliceblue;
+    margin: 10 30 20 10;
+
+}
+
+.logo {
+    flex: auto;
+
+}
+
+.header-menu {
+    flex: auto;
+
+}
+
+.menu {
+    font-size: small;
+    font-style: italic;
+    font-stretch: normal;
+    font-weight: lighter;
+    flex: auto;
+
+}
+
